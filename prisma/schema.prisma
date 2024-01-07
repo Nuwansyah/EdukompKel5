@@ -15,5 +15,17 @@ model Register {
   age             Int
   Address         String
   CourseT         String
+<<<<<<< HEAD
 
+=======
+}
+
+model Teacher {
+  id              String @id @default(uuid())
+  name            String
+  age             String
+  address         String
+  position        String
+  createdAt       DateTime @default(now())
+>>>>>>> d0974a5cc8e9aebf0812ee9bd49b54b5aaff0e36
 }
