@@ -8,15 +8,6 @@ generator client {
   provider = "prisma-client-js"
 }
 
-
-model Register {
-  id              String    @id @default(uuid())
-  name            String
-  age             Int
-  Address         String
-  CourseT         String
-}
-
 model Teacher {
   id              String @id @default(uuid())
   name            String
