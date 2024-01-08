@@ -1,4 +1,4 @@
-import { Logo } from "./Logo"
+import { Logo } from "./Logoedukomp"
 import { SidebarRoutes } from "./SidebarRoutes"
 
 export const Sidebar = () => {

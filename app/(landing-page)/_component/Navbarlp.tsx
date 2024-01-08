@@ -1,6 +1,6 @@
 import { NavbarRoutes } from "@/components/navbar-routes"
 import { Button, buttonVariants } from "@/components/ui/button"
-import { Logo } from "./Logo"
+import { Logo } from "./Logoedukomp"
 import Link from "next/link"
 import { cn } from "@/lib/utils"
 
@@ -8,7 +8,7 @@ export const Navbarlp = () => {
     return(
         <nav className="fixed top-0 w-full h-20 z-10 px-4 md:px-8 lg:px-36 flex items-center justify-between border-b bg-white shadow-sm">
             <div className="flex items-center">
-                <h1 className="text-brand">
+                <h1 className="text-brand pr-4">
                     <Logo/>
                 </h1>
                 <h1 className="text-xl font-bold">

@@ -47,9 +47,19 @@ const CreateTeacherForm = ({ action }: CreateTeacherFormProps) => {
     setTransition(async () => {
       toast.promise(action(data), {
         loading: "Loading...",
-        success: "Success!",
-        error: "Failed!",
-      });
+        success: "Thank you for signing up! wait for further information.",
+        error: "Registration failed!",
+      },
+      {
+        
+        success: {
+          duration: 5000,
+        },
+        error: {
+          duration: 5000,
+        },
+      }
+      );
     });
   };
 
@@ -61,11 +71,11 @@ const CreateTeacherForm = ({ action }: CreateTeacherFormProps) => {
           name="name"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Siapa nama anda?</FormLabel>
+              <FormLabel>What is your name?</FormLabel>
               <FormControl>
                 <Input
                   disabled={isSubmitting}
-                  placeholder="Contoh 'Adi'"
+                  placeholder="e.g 'Adi'"
                   {...field}
                 />
               </FormControl>
@@ -78,11 +88,11 @@ const CreateTeacherForm = ({ action }: CreateTeacherFormProps) => {
           name="age"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Berapa umur anda?</FormLabel>
+              <FormLabel>How old are you?</FormLabel>
               <FormControl>
                 <Input
                   disabled={isSubmitting}
-                  placeholder="Contoh 'Adi'"
+                  placeholder=" e.g 26"
                   {...field}
                 />
               </FormControl>
@@ -95,11 +105,11 @@ const CreateTeacherForm = ({ action }: CreateTeacherFormProps) => {
           name="address"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Tuliskan alamat anda</FormLabel>
+              <FormLabel>Fill in your address</FormLabel>
               <FormControl>
                 <Input
                   disabled={isSubmitting}
-                  placeholder="Contoh 'Jl. Kebon jeruk'"
+                  placeholder="e.g 'Jl. Kebon jeruk'"
                   {...field}
                 />
               </FormControl>
@@ -112,11 +122,11 @@ const CreateTeacherForm = ({ action }: CreateTeacherFormProps) => {
           name="position"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Sebagai apa posisi anda?</FormLabel>
+              <FormLabel>What position are you applying for?</FormLabel>
               <FormControl>
                 <Input
                   disabled={isSubmitting}
-                  placeholder="Contoh 'Adi'"
+                  placeholder="UI/UX Designer"
                   {...field}
                 />
               </FormControl>

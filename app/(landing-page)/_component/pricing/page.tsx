@@ -11,14 +11,13 @@ const Pricing = () => {
                   <div className="w-full px-4">
                      <div className="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
                         <span className="font-semibold text-lg text-primary mb-2 block">
-                           Pricing Table
+                        
                         </span>
                         <h2 className=" font-bold text-3xl sm:text-4xl md:text-[40px] text-dark mb-4">
                            Our Pricing Plan
                         </h2>
                         <p className="text-base text-body-color">
-                           There are many variations of passages of Lorem Ipsum available
-                           but the majority have suffered alteration in some form.
+                        Enhance your technical skills and prepare for a career in coding with our proven effective learning package.
                         </p>
                      </div>
                   </div>
@@ -27,12 +26,12 @@ const Pricing = () => {
                   <div className="w-full md:w-1/2 lg:w-1/3 px-4">
                   <div className="bg-white rounded-xl  z-10 overflow-hidden border border-primary border-opacity-20 shadow-pricing py-10 px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12 mb-10">
                      <span className="text-primary font-semibold text-lg block mb-4">
-                        Personal
+                        Free
                      </span>
                      <h2 className="font-bold text-dark mb-5 text-[32px]">
-                         Rp.850.000
+                         Rp.0
                      <span className="text-base text-body-color font-medium">
-                        / year
+                        
                      </span>
                </h2>
                <p
@@ -43,14 +42,14 @@ const Pricing = () => {
                   border-b border-[#F2F2F2]
                   "
                   >
-                  Perfect for using in a personal website or a client project.
+                  Perfect for hobby learning.
                </p>
                <div className="mb-7">
                   <p className="text-base text-body-color leading-loose mb-1">
-                     1 User
+                     Free access to free course
                   </p>
                   <p className="text-base text-body-color leading-loose mb-1">
-                     All UI components
+                     Free access to non premium course
                   </p>
                   <p className="text-base text-body-color leading-loose mb-1">
                      Lifetime access
@@ -59,31 +58,14 @@ const Pricing = () => {
                      Free updates
                   </p>
                   <p className="text-base text-body-color leading-loose mb-1">
-                     Use on 1 (one) project
+                     Free access to 1 chapter
                   </p>
                   <p className="text-base text-body-color leading-loose mb-1">
-                     3 Months support
+                  
                   </p>
+                  
                </div>
-               <a
-                  href="javascript:void(0)"
-                  className="
-                  w-full
-                  block
-                  text-base
-                  font-semibold
-                  text-primary
-                  bg-transparent
-                  border border-[#D4DEFF]
-                  rounded-md
-                  text-center
-                  p-4
-                  hover:text-white hover:bg-primary hover:border-primary
-                  transition
-                  "
-                  >
-               Choose Personal
-               </a>
+               
                <div>
                   <span className="absolute right-0 top-7 z-[-1]">
                      <svg
@@ -354,12 +336,12 @@ const Pricing = () => {
             <div
                className="bg-white rounded-xl z-10 overflow-hidden border border-primary border-opacity-20 shadow-pricing py-10 px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12 mb-10">
                <span className="text-primary font-semibold text-lg block mb-4">
-               Business
+               Edima
                </span>
-               <h2 className="font-bold text-dark mb-5 text-[42px]">
-                  $199
+               <h2 className="font-bold text-dark mb-5 text-[32px]">
+                  Rp.500.000
                   <span className="text-base text-body-color font-medium">
-                  / year
+                  / 4 Month
                   </span>
                </h2>
                <p
@@ -370,31 +352,44 @@ const Pricing = () => {
                   border-b border-[#F2F2F2]
                   "
                   >
-                  Perfect for using in a Business website or a client project.
+                  Perfect for someone who is ambitious.
                </p>
                <div className="mb-7">
                   <p className="text-base text-body-color leading-loose mb-1">
-                     5 Users
+                     Unlimited Access to any course
                   </p>
                   <p className="text-base text-body-color leading-loose mb-1">
-                     All UI components
+                     Free personal consultant
                   </p>
                   <p className="text-base text-body-color leading-loose mb-1">
-                     Lifetime access
+                     4 Month support
                   </p>
                   <p className="text-base text-body-color leading-loose mb-1">
                      Free updates
                   </p>
                   <p className="text-base text-body-color leading-loose mb-1">
-                     Use on 3 (Three) project
                   </p>
-                  <p className="text-base text-body-color leading-loose mb-1">
-                     4 Months support
-                  </p>
+                  
                </div>
-                  <a href="javascript:void(0)" className="w-full block text-base font-semibold  text-white bg-primary border border-primary rounded-md text-center p-4 hover:bg-opacity-90 transition">
-                     Choose Business
-                  </a>
+               <a
+                  href="javascript:void(0)"
+                  className="
+                  w-full
+                  block
+                  text-base
+                  font-semibold
+                  text-primary
+                  bg-transparent
+                  border border-[#D4DEFF]
+                  rounded-md
+                  text-center
+                  p-4
+                  hover:text-white hover:bg-primary hover:border-primary
+                  transition
+                  "
+                  >
+               Choose Edima
+               </a>
                <div>
                   <span className="absolute right-0 top-7 z-[-1]">
                      <svg
@@ -666,10 +661,10 @@ const Pricing = () => {
                className=" bg-white rounded-xl z-10 overflow-hidden border border-primary border-opacity-20 shadow-pricing py-10 px-8 sm:p-12 lg:py-10 lg:px-6 xl:p-12 mb-10"
                >
                <span className="text-primary font-semibold text-lg block mb-4">
-               Professional
+               Ultima
                </span>
-               <h2 className="font-bold text-dark mb-5 text-[42px]">
-                  $256
+               <h2 className="font-bold text-dark mb-5 text-[32px]">
+                  Rp.1.350.000
                   <span className="text-base text-body-color font-medium">
                   / year
                   </span>
@@ -682,23 +677,17 @@ const Pricing = () => {
                   border-b border-[#F2F2F2]
                   "
                   >
-                  Perfect for using in a Professional website or a client project.
+                  Perfect for fulltime learning.
                </p>
                <div className="mb-7">
                   <p className="text-base text-body-color leading-loose mb-1">
-                     Unlimited Users
+                     Unlimited access to any course
                   </p>
                   <p className="text-base text-body-color leading-loose mb-1">
-                     All UI components
+                     Private Consultant
                   </p>
                   <p className="text-base text-body-color leading-loose mb-1">
-                     Lifetime access
-                  </p>
-                  <p className="text-base text-body-color leading-loose mb-1">
-                     Free updates
-                  </p>
-                  <p className="text-base text-body-color leading-loose mb-1">
-                     Use on Unlimited project
+                     Private Offline learning
                   </p>
                   <p className="text-base text-body-color leading-loose mb-1">
                      12 Months support
@@ -721,7 +710,7 @@ const Pricing = () => {
                   transition
                   "
                   >
-               Choose Professional
+               Choose Ultima
                </a>
                <div>
                   <span className="absolute right-0 top-7 z-[-1]">

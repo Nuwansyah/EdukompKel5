@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="flex flex-col items-end justify-between ">
         <a className="text-1xl font-bold text-gray-800 transition-colors duration-300">Kelompok 5</a>
         <a className="text-sm font-italic text-gray-800 transition-colors duration-300">
-            Nuwansyah Billah A , Puja Rahayu, ?
+            Nuwansyah Billah A , Puja Rahayu A, M Fadli Rohman
         </a>
         <p className="mt-4 text-sm text-gray-500 dark:text-gray-300 sm:mt-0">© Copyright 2024. Kelompok 5</p>
         </div>

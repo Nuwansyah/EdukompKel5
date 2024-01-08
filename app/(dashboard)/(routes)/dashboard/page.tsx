@@ -1,7 +1,9 @@
+import NewCourse from "../_component/dashboard-content/new-course";
+
 const DashboardP = () => {
     return ( 
         <div>
-            walkase
+            <NewCourse/>
         </div>
      );
 }

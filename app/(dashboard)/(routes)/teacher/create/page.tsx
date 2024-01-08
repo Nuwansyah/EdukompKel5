@@ -16,8 +16,8 @@ const CreatePage = async () => {
   return (
     <div className="flex h-full max-w-5xl p-6 mx-auto md:item-center md:justify-center">
       <div>
-        <h1 className="text-2xl">Pendaftaran Mentor</h1>
-        <p className="text-sm text-slate-600">Isi data diri dibawah..</p>
+        <h1 className="text-2xl">Teacher registration form</h1>
+        <p className="text-sm text-slate-600">Fill in your personal data below..</p>
         <CreateTeacherForm action={handleCreateTeacher} />
       </div>
     </div>

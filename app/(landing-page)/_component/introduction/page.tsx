@@ -9,24 +9,22 @@ import Photo from "./photo";
 export default function Introduction() {
   return (
     <div>
-      <Container>
+      <Container className="pt-10 lg:pt-20 lg:pb-20 pb-6 space-y-8">
       
       <div className="flex flex-col gap-y-8">
         <div className="w-full flex lg:flex-row lg:justify-between space-y-8 lg:space-y-0">
           <div className="">
-            <div className="items-start lg:w-[100%]">
+            <div className="items-start lg:w-[100%] relative h-80  mb-4 ">
               <Photo />
             </div>
-            <div className="space-y-4 mb-4 container mx-auto px-6 py-5 text-center">
-              <h2 className="text-3xl font-bold text-gray-800 dark:text-white lg:text-4xl">
-                Grow your professional skill with best mentor
+            <div className="space-y-4 mb-4 container mx-auto px-20 py-4 text-center">
+              <h2 className="text-3xl font-bold text-gray-800 dark:text-white lg:text-4xl w-45">
+              Elevate your professional expertise with unparalleled guidance from top-notch teachers!
               </h2>
-              <p className="lg:text-lg text-justify ">
-                Embark on a transformative learning journey with the ultimate
-                online course platform! Uncover the perfect course tailored just
-                for you and dive into a world of seamless and enriching
-                education. Your pathway to knowledge begins here. Discover,
-                learn, and thrive!
+              <p className="lg:text-lg text-justify pt-4 ">
+              Embark on a transformative learning journey with our premier online and offline course platform. Uncover tailor-made courses designed specifically for your needs and immerse yourself in a world of seamless and enriching education.
+              oin us on this educational adventure, where knowledge knows no bounds. Our platform is not just a destination; its a launchpad for your ambitions. With a commitment to excellence, we provide a diverse range of courses to cater to 
+              your unique learning style. Seize the opportunity to learn from the best teachers in the industry and watch your skills flourish. Your journey to expertise starts here
               </p>
             </div>
           </div>
@@ -35,19 +33,19 @@ export default function Introduction() {
 
         <div className="md:mt-1 grid grid-cols-1 md:grid-cols-4 gap-6 border-2 border-brand rounded-lg">
           <div className="flex flex-col items-center py-8 border-b-2 md:border-b-0 md:border-r-2 border-brand">
-            <h2 className="text-4xl font-semibold text-brand">69+</h2>
+            <h2 className="text-4xl font-semibold text-brand">948+</h2>
             <p className="mt-2 font-medium">Active Student</p>
           </div>
           <div className="flex flex-col items-center py-8 border-b-2 md:border-b-0 md:border-r-2 border-brand">
-            <h2 className="text-4xl font-semibold text-brand">69</h2>
-            <p className="mt-2 font-medium">Skilled Mentor</p>
+            <h2 className="text-4xl font-semibold text-brand">120+</h2>
+            <p className="mt-2 font-medium">Expert Teacher</p>
           </div>
           <div className="flex flex-col items-center py-8 border-b-2 md:border-b-0 md:border-r-2 border-brand">
-            <h2 className="text-4xl font-semibold text-brand">69</h2>
+            <h2 className="text-4xl font-semibold text-brand">132+</h2>
             <p className="mt-2 font-medium">Total Course</p>
           </div>
           <div className="flex flex-col items-center py-8">
-            <h2 className="text-4xl font-semibold text-brand">69</h2>
+            <h2 className="text-4xl font-semibold text-brand">10+</h2>
             <p className="mt-2 font-medium">Awards</p>
           </div>
         </div>

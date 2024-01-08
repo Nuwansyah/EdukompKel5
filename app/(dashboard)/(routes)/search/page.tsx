@@ -1,7 +1,7 @@
 const SearchPage = () => {
     return ( 
         <div>
-            searchbpage
+            Coming soon!
         </div>
      );
 }
