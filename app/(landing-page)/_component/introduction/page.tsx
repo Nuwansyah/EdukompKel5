@@ -8,11 +8,11 @@ import Photo from "./photo";
  
 export default function Introduction() {
   return (
-    <div>
+    <div className="container mx-auto px-6 py-10 ">
       <Container className="pt-10 lg:pt-20 lg:pb-20 pb-6 space-y-8">
       
       <div className="flex flex-col gap-y-8">
-        <div className="w-full flex lg:flex-row lg:justify-between space-y-8 lg:space-y-0">
+        <div className="w-full flex lg:flex-row lg:justify-between space-y-8 lg:space-y-0 items-center">
           <div className="">
             <div className="items-start lg:w-[100%] relative h-80  mb-4 ">
               <Photo />

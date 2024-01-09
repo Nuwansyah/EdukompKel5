@@ -6,9 +6,16 @@ import OfflineTeaching from "./_component/offlineteaching/page";
 export default function Home() {
   return (
     <div>
-      <Introduction/>
-      <Mentor/>
-      <OfflineTeaching/>
+      <div className="bg-sky-100">
+        <Introduction/>
+      </div>
+      <div className="bg-sky-200">
+        <Mentor/>
+      </div>
+      <div className="bg-white">
+        <OfflineTeaching/>
+      </div>
+      
     </div>
   )
 }
